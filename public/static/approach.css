@@ -1,0 +1,38 @@
+.rowapp{
+    display: flex;
+}
+.containerapproach{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    color:hsl(273, 72%, 13%);
+    padding-bottom: 5%;
+}
+.appsec{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.app{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.rowapptwo{
+    text-align: right;
+}
+.get{
+    background-color: hsl(48, 99%, 63%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.something{
+    border-left: 50px;
+    border-left: solid;
+    border-color: hsl(48, 99%, 63%);
+    padding-left: 10px;
+}
+.other{
+    padding-left: 10px;
+
+}

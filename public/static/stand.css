@@ -1,0 +1,48 @@
+.doct{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.doc{
+    text-align: center;
+}
+
+.rowr{
+    display: flex;
+    
+}
+.rower{
+    display:flex 
+}
+.err{
+    background-color: #1a0a3a;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-right: 10% ;
+    margin-left: auto;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-radius: 10px;
+}
+.writes{
+    padding: 5px;
+}
+.ic{
+    padding-top: 10px;;
+}
+.secondhalf{
+    display: flex;
+    padding-top: 5%;
+    color: #33186B;
+}
+.profileimg{
+    width: 50%;
+    padding-top: 40px;
+}
+.firstclass{
+    padding-left: 30%;
+    text-align: center;
+}
+.secondclass{
+    text-align: center;
+}

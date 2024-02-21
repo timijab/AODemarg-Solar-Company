@@ -1,0 +1,22 @@
+.mainblock{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: hsl(48, 99%, 63%);
+    padding-top: 50px;
+    color: hsl(273, 72%, 13%);
+    padding-bottom: 3%;
+}
+.check{
+    background-color: hsl(273, 72%, 13%);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.partone{
+    margin: auto;
+}
+.bone{
+    text-align: left;
+}

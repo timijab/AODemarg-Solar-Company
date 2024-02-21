@@ -1,0 +1,28 @@
+.solutions{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: hsl(273, 72%, 13%);
+    padding-bottom: 10%;
+}
+.cardparent{
+    display: flex;
+}
+#sol{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+}
+.cardrows{
+    margin-right: 15%;
+    background-color: hsl(48, 99%, 63%);
+    color: hsl(273, 72%, 13%);;;
+}
+.wrut{
+    padding: 10px;
+}
+.lastp{
+    display: flex;
+    align-items: center;
+    
+}

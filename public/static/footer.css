@@ -1,0 +1,21 @@
+.foot{
+    background-image: url('./images/Image\ 11.10.52.jpg');
+    background-repeat: no-repeat;
+    padding: 8%;
+}
+.btnos{
+    padding: 10px;
+    color:  hsl(273, 72%, 13%);
+    background-color: hsl(48, 99%, 63%);
+    border: solid;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerdiv{
+    background-color: hsl(273, 72%, 13%);
+    text-align: center;
+    color: white;
+    padding: 10% ;
+}

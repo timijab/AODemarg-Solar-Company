@@ -1,0 +1,28 @@
+.find{
+    background-color:hsl(48, 99%, 63%);
+    color: hsl(273, 72%, 13%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.maincontainer{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    padding: 3%;
+}
+.rightside{
+    display: flex;
+}
+.first{
+    padding-top: 5px;
+}
+.leftside{
+    padding-top: 70px;
+    padding-left: 0px;
+}
+.aodemargimage{
+    padding-bottom: 10px;
+}
+.space{
+    padding: 10px;
+}

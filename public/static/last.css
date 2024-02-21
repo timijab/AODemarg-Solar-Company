@@ -1,0 +1,19 @@
+footer{
+    color: hsl(273, 72%, 13%);
+}
+.lst{
+    display: flex;
+}
+.sectionone, .sectiontwo, .sectionthree,.sectionfour, .sectionfive{
+    margin: auto;
+
+}
+.courtesy{
+    text-align: center;
+}
+.tom{
+    color: hsl(48, 99%, 63%);
+}
+.imagelogo{
+    width: 50%;
+}
