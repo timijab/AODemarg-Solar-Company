@@ -28,7 +28,7 @@ function Stand(){
                     <h3>Accredited</h3>
                     <p className='writes'>Experience excellence through our accredited craftsmanship, using premium materials innovatively.</p>
                 </div>
-                <div class='err'>
+                <div class='err toremove'>
                     <EngineeringIcon className='ic'/>
                     <h3>Workers</h3>
                     <p className='writes'>Empowering skilled artisans, fostering excellence with top-quality materials and innovation.</p>
@@ -45,7 +45,7 @@ function Stand(){
                     <h3> Quick Response </h3>
                     <p className='writes'> Swift resolutions for repairs and maintenance, ensuring seamless service provision. </p>
                 </div>
-                <div class='err'>
+                <div class='err toremove'>
                     <WorkspacePremiumIcon className='ic'/>
                     <h3> Warranty </h3>
                     <p className='writes'> Secured by a comprehensive warranty, guaranteeing quality craftsmanship and satisfaction. </p>

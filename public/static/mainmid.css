@@ -3,18 +3,43 @@
     color: hsl(273, 72%, 13%);
     padding-left: 30px;
     padding-right: 30px;
+    border: 0px;
+    font-size: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    
+}
+.container{
+    padding-bottom: 0px;
 }
 .maincontainer{
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     padding: 3%;
+    color:hsl(273, 72%, 13%);
 }
+
+@media (max-width: 704px) {
+    .maincontainer{
+        display: block;
+        text-align: center;
+    }
+    .aodemargimage{
+        width: 100%;
+    }
+}
+
 .rightside{
     display: flex;
+
 }
 .first{
     padding-top: 5px;
+}
+.row{
+    padding-top: 0px;
 }
 .leftside{
     padding-top: 70px;
@@ -25,4 +50,20 @@
 }
 .space{
     padding: 10px;
+    
+}
+.firstdivs{
+    display: flex;
+}
+.coverlen{
+    display: flex;
+}
+@media (max-width: 925px) {
+    .coverlen{
+        display: block;
+    }
+    .firstdivs{
+        display: block;
+    }
+    
 }

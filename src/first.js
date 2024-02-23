@@ -13,15 +13,17 @@ function Heading(){
                     </div>
                 </div>
                 <div className="endtabs">
+                    
                     <h4 className="row4 hom"> Home </h4>
                     <h4 className="row4 ab"> About <KeyboardArrowDownIcon /> </h4>
                     <h4 className="row4 sol"> Solutions <KeyboardArrowDownIcon />  </h4>
                     <h4 className="row4 pro"> Projects </h4>
                     <h4 className="row4 cont">Contact Us </h4>
                 </div>
+                <button className="dropdown"> tap </button>
         </div>
         <div className="solar">
-            <h3> Solar Energy </h3>
+        <h3> Solar Energy </h3>
         </div>
     
         <div className="business">

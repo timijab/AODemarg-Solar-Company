@@ -10,7 +10,7 @@ function Unlock(){
         <div className="cardparent">
             {/* card elements */}
             <div className="cardrows">
-                <img src={Cardone} alt="Solar panel Installation"></img>
+                <img src={Cardone} className="Cardone" alt="Solar panel Installation"></img>
                 <div className="wrut">
                     <h3>Solar panel Installation</h3>
                     <p>Celebrate sustainability with our expert solar panel installations. Harnessing the power of the sun for a brighter, greener future.</p>
@@ -18,15 +18,15 @@ function Unlock(){
                 </div>
             </div>
             <div className="cardrows">
-                <img src={Cardtwo} alt="Solar Panel maintainance"></img>
+                <img src={Cardtwo} className="Cardone" alt="Solar Panel maintainance"></img>
                 <div className="wrut">
                     <h3>Solar Panel maintainance</h3>
                     <p> Keep your solar investment shining bright with our professional maintenance services. We ensure optimal performance and longevity for your solar panel system.</p>
                     <p className="lastp"> ReadMore <ArrowForwardIcon/> </p>
                 </div>
             </div>
-            <div className="cardrows">
-                <img src={Cardthree} alt="CBN Exhibition"></img>
+            <div className="cardrows hid">
+                <img src={Cardthree} className="Cardone" alt="CBN Exhibition"></img>
                 <div className="wrut">
                     <h3>CBN Exhibition</h3>
                     <p> Experience innovation at its finest with our CBN Exhibition. Explore cutting-edge solutions and advancements shaping industries for tomorrow.</p>

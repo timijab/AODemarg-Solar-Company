@@ -46,3 +46,15 @@
 .secondclass{
     text-align: center;
 }
+@media (max-width: 704px) {
+    .secondhalf{
+        display: block;
+        text-align: center;
+    }
+    .firstclass{
+        padding: 0px;
+    }
+    .toremove{
+        display: none;
+    }
+}

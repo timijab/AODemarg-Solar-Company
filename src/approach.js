@@ -34,7 +34,7 @@ function Approach(){
             <h1> Unvielling</h1>
             <h1>Our Approach </h1>
             <p> Our approach combines innovative technology, meticulous planning, and a commitment to excellence to deliver tailored solutions that exceed expectations. </p>
-            <button className="get"> Get a Quote <ArrowCircleRightIcon/></button>
+            <button className="get"> <h3> Get a Quote </h3> <ArrowCircleRightIcon/></button>
        </div> 
     </div>
 }

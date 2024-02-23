@@ -7,6 +7,16 @@
 .cardparent{
     display: flex;
 }
+@media (max-width:750px) {
+    .cardparent{
+        display: block;
+    }
+    .cardrows{
+        margin-left: 20%;
+        margin-right: 30%;
+    }
+    
+}
 #sol{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -16,7 +26,8 @@
 .cardrows{
     margin-right: 15%;
     background-color: hsl(48, 99%, 63%);
-    color: hsl(273, 72%, 13%);;;
+    color: hsl(273, 72%, 13%);
+    border-radius: 7px;
 }
 .wrut{
     padding: 10px;
@@ -25,4 +36,17 @@
     display: flex;
     align-items: center;
     
+}
+@media (max-width:1140px) {
+    .hid{
+        display: none;
+    }
+    .cardrows{
+        margin-right: 30%;
+        margin-bottom: 30px;
+    }
+}
+
+.Cardone{
+    width: 100%;
 }

@@ -9,6 +9,12 @@
     color:hsl(273, 72%, 13%);
     padding-bottom: 5%;
 }
+@media (max-width:704px) {
+    .containerapproach{
+        display: block;
+    }
+    
+}
 .appsec{
     padding-left: 4%;
     padding-right: 4%;
@@ -25,6 +31,12 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 7px;
 }
 .something{
     border-left: 50px;

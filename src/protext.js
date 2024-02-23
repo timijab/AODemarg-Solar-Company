@@ -16,12 +16,12 @@ function Supply(){
             <ol> <CheckCircleIcon /> Solar Water Heaters</ol>
             <ol> <CheckCircleIcon /> Solar Portable Chargers. </ol>
             <ol> <CheckCircleIcon /> Solar Generator. </ol>
-                <button className='check'> Check out for more <ArrowForwardIosOutlinedIcon/> </button>
+                <button className='check'> <h3> Check out for more </h3> <ArrowForwardIosOutlinedIcon/> </button>
             </div>
         </div>
         <div className='parttwo'>
             <div className='cone'>
-                <img src={flyer} alt='flier of aodemarg'></img>
+                <img className="flyer" src={flyer} alt='flier of aodemarg'></img>
             </div>
         </div>
 

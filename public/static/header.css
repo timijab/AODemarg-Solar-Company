@@ -10,11 +10,10 @@ body{
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10%;
     background-image: url('./images/real.png');
     background-repeat: no-repeat;
-    background-color:hsl(274, 83%, 16%)
-    
+    background-color:hsl(274, 83%, 16%);
+    padding-bottom: 8%;
 }
 
 .tab{
@@ -31,6 +30,21 @@ body{
     text-align: center;
     color: #0d093dcf;
     margin: auto;
+}
+.dropdown{
+    display: none;
+    margin: auto;
+    margin-left: 30%;
+}
+@media (max-width:967px) {
+    .endtabs{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+        background-color:#0d093dcf; 
+        color: white;
+    }
 }
 #logoid{
     width: 10%;
@@ -60,19 +74,22 @@ body{
     padding-bottom: 20px;
 }
 .solar{
-    padding-top: 10%;
+    padding-top: 5%;
     color: white;
 }
 #sun{
     color: white;
     margin-bottom: 0px;
-    font-size: 4rem;
+    
+    padding: 0%;
+    margin: 0px;
 }
 #our{
-    margin-top: 0px;
+    margin: 0px;
     color: hsl(48, 99%, 63%);
-    font-size: 4rem;
+    
     padding-bottom: 0px;
+    padding: 0px;
 }
 .talk{
     color: white;
@@ -90,6 +107,7 @@ body{
     color: #0d093dcf;
     background-color:  hsl(48, 99%, 63%);
     border-radius: 7px;
+    border: 0px;
 }
 .container{
     display: flex;

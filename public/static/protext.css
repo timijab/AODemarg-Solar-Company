@@ -13,9 +13,36 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 0px;
+    border-radius: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
 }
+.check:hover{
+    cursor: pointer;
+    color: hsl(48, 99%, 63%);
+}
+
 .partone{
     margin: auto;
+}
+.flyer{
+    width: 100%;
+}
+@media (max-width: 590px) {
+    .mainblock{
+        display: block;
+        text-align: center;
+    }
+   
+    .bone{
+        display: contents;
+    }
+    .check{
+        margin-bottom: 10px;
+    }
 }
 .bone{
     text-align: left;

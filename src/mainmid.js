@@ -11,11 +11,11 @@ function MainMiddle(){
                 Certified Company
             </h3>
             <h1> We are Ready for Solar Energy </h1>
-            <h5>
+            <h3>
                 A. O. Demarg Nigeria Limited are synonymous with quality, reliability, performance and trust.
                 These qualities form the bedrock of our vision; 
                 “we are committed to providing needed and refined electricity through renewable energy solutions while the environment is protected.
-            </h5>
+            </h3>
             <button className='find'> Find more about us </button>
         </div>
         <div className='rightside'>

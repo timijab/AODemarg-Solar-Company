@@ -17,3 +17,8 @@ footer{
 .imagelogo{
     width: 50%;
 }
+@media (max-width: 768px) {
+    .lst{
+        display: none;
+    }
+}
